@@ -1,0 +1,13 @@
+C:\Users\htooa\Desktop\csharp\Visual_studio\C# SA B1\HelloWorldGUI\HelloWorldGUI\bin\Debug\HelloWorldGUI.exe.config
+C:\Users\htooa\Desktop\csharp\Visual_studio\C# SA B1\HelloWorldGUI\HelloWorldGUI\bin\Debug\HelloWorldGUI.exe
+C:\Users\htooa\Desktop\csharp\Visual_studio\C# SA B1\HelloWorldGUI\HelloWorldGUI\bin\Debug\HelloWorldGUI.pdb
+C:\Users\htooa\Desktop\csharp\Visual_studio\C# SA B1\HelloWorldGUI\HelloWorldGUI\obj\Debug\HelloWorldGUI.csproj.AssemblyReference.cache
+C:\Users\htooa\Desktop\csharp\Visual_studio\C# SA B1\HelloWorldGUI\HelloWorldGUI\obj\Debug\HelloWorldGUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\htooa\Desktop\csharp\Visual_studio\C# SA B1\HelloWorldGUI\HelloWorldGUI\obj\Debug\HelloWorldGUI.Form1.resources
+C:\Users\htooa\Desktop\csharp\Visual_studio\C# SA B1\HelloWorldGUI\HelloWorldGUI\obj\Debug\HelloWorldGUI.Properties.Resources.resources
+C:\Users\htooa\Desktop\csharp\Visual_studio\C# SA B1\HelloWorldGUI\HelloWorldGUI\obj\Debug\HelloWorldGUI.csproj.GenerateResource.cache
+C:\Users\htooa\Desktop\csharp\Visual_studio\C# SA B1\HelloWorldGUI\HelloWorldGUI\obj\Debug\HelloWorldGUI.csproj.CoreCompileInputs.cache
+C:\Users\htooa\Desktop\csharp\Visual_studio\C# SA B1\HelloWorldGUI\HelloWorldGUI\obj\Debug\HelloWorldGUI.exe
+C:\Users\htooa\Desktop\csharp\Visual_studio\C# SA B1\HelloWorldGUI\HelloWorldGUI\obj\Debug\HelloWorldGUI.pdb
+C:\Users\htooa\Desktop\csharp\Visual_studio\C# SA B1\HelloWorldGUI\HelloWorldGUI\obj\Debug\HelloWorldGUI.LoginUI.resources
+C:\Users\htooa\Desktop\csharp\Visual_studio\C# SA B1\HelloWorldGUI\HelloWorldGUI\obj\Debug\HelloWorldGUI.SimpleCalculatorUI.resources

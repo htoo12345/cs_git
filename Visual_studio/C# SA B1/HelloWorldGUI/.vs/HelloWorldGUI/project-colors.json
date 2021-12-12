@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "247384b8-61ee-4562-b792-b6fcbe31c4df": {
+      "ProjectGuid": "247384b8-61ee-4562-b792-b6fcbe31c4df",
+      "DisplayName": "HelloWorldGUI",
+      "ColorIndex": 0
+    },
+    "258f3e56-9702-4569-9f70-e6773895be51": {
+      "ProjectGuid": "258f3e56-9702-4569-9f70-e6773895be51",
+      "DisplayName": "WPF1",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
