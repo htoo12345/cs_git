@@ -33,14 +33,15 @@
             this.label2 = new System.Windows.Forms.Label();
             this.txtIncome = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.txtShowBox = new System.Windows.Forms.TextBox();
             this.btnCalculate = new System.Windows.Forms.Button();
+            this.txtOutputDisplay = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Silver;
+            this.label1.BackColor = System.Drawing.SystemColors.Window;
             this.label1.Cursor = System.Windows.Forms.Cursors.Default;
             this.label1.Font = new System.Drawing.Font("Palace Script MT", 30F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.Desktop;
@@ -70,6 +71,7 @@
             this.txtIncome.Name = "txtIncome";
             this.txtIncome.Size = new System.Drawing.Size(100, 20);
             this.txtIncome.TabIndex = 2;
+            this.txtIncome.TextChanged += new System.EventHandler(this.txtIncome_TextChanged);
             // 
             // label3
             // 
@@ -82,13 +84,13 @@
             this.label3.TabIndex = 3;
             this.label3.Text = "% Tax   :";
             // 
-            // textBox2
+            // txtShowBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(154, 131);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
-            this.textBox2.TabIndex = 4;
+            this.txtShowBox.Location = new System.Drawing.Point(154, 131);
+            this.txtShowBox.Name = "txtShowBox";
+            this.txtShowBox.Size = new System.Drawing.Size(100, 20);
+            this.txtShowBox.TabIndex = 4;
+            this.txtShowBox.TextChanged += new System.EventHandler(this.txtShowBox_TextChanged);
             // 
             // btnCalculate
             // 
@@ -99,6 +101,16 @@
             this.btnCalculate.TabIndex = 5;
             this.btnCalculate.Text = "Calculate";
             this.btnCalculate.UseVisualStyleBackColor = true;
+            this.btnCalculate.Click += new System.EventHandler(this.btnCalculate_Click);
+            // 
+            // txtOutputDisplay
+            // 
+            this.txtOutputDisplay.Location = new System.Drawing.Point(105, 198);
+            this.txtOutputDisplay.Name = "txtOutputDisplay";
+            this.txtOutputDisplay.Size = new System.Drawing.Size(80, 20);
+            this.txtOutputDisplay.TabIndex = 6;
+            this.txtOutputDisplay.Text = "      Answer";
+           // this.txtOutputDisplay.TextChanged += new System.EventHandler(this.txtOutputDisplay_TextChanged);
             // 
             // Form1
             // 
@@ -107,8 +119,9 @@
             this.BackColor = System.Drawing.SystemColors.ControlLightLight;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(350, 238);
+            this.Controls.Add(this.txtOutputDisplay);
             this.Controls.Add(this.btnCalculate);
-            this.Controls.Add(this.textBox2);
+            this.Controls.Add(this.txtShowBox);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.txtIncome);
             this.Controls.Add(this.label2);
@@ -129,8 +142,9 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.TextBox txtIncome;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox txtShowBox;
         private System.Windows.Forms.Button btnCalculate;
+        private System.Windows.Forms.TextBox txtOutputDisplay;
     }
 }
 
