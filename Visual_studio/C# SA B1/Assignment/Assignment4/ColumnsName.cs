@@ -23,5 +23,11 @@ namespace Assignment4
             Console.Write("Enter Category : ");
             Category = Console.ReadLine();
         }
-    }
-}
+
+        public void DeleteId()
+        {
+            Console.Write("Enter id : ");
+            Id = Convert.ToInt32(Console.ReadLine());
+        }
+    }//end of ColumnsName class
+} // end of Assignment4

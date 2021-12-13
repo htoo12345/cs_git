@@ -36,6 +36,6 @@ namespace Assignment4
             {
                 Console.WriteLine("Error occur " + error.Message);
             }
-        }
-    }
-}
+        }  // end of ShowProduct method
+    } //end of ShowProductList class
+} // end of namespace Assignment4

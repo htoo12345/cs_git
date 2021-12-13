@@ -23,7 +23,7 @@ namespace Assignment4
 
                     if (result > 0)
                     {
-                        Console.WriteLine("Commands completed successfully. \nCompletion time: " + DateTime.Now);
+                        Console.WriteLine($"Commands completed successfully. \nCompletion time: {DateTime.Now}\n");
                     }
 
                     sqlConnection.Close();
@@ -33,6 +33,7 @@ namespace Assignment4
             {
                 Console.WriteLine("Error occur " + error.Message);
             }
-        }
-    }
-}
+        } // end of UpdateProduct
+    } // end of UpdateExistingProduct class
+} // end of Assignment4
+
