@@ -21,6 +21,8 @@ namespace Assignment4
                     SqlCommand sqlCommand = new SqlCommand(query, sqlConnection);
                     SqlDataReader reader = sqlCommand.ExecuteReader();
 
+                    Console.WriteLine();
+
                     while (reader.Read())
                     {
                         Console.WriteLine($"{reader["Id"]}, {reader["Name"]}, {reader["Price"]}, {reader["Category"]}");

@@ -23,7 +23,7 @@ namespace Assignment4
 
                     if (result > 0)
                     {
-                        Console.WriteLine($"Commands completed successfully. \nCompletion time: {DateTime.Now}\n");
+                        Console.WriteLine($"\nCommands completed successfully. \nCompletion time: {DateTime.Now}\n");
                     }
 
                     sqlConnection.Close();
