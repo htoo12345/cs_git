@@ -16,5 +16,19 @@ namespace Assignment5
         {
             InitializeComponent();
         }
+
+        
+
+        private void btnRegister_Click(object sender, EventArgs e)
+        {
+            string name = txtName.Text;
+            string email = txtEmail.Text;
+            string password = txtPassword.Text;
+            string comfirmPassword = txtComfirmPassword.Text;
+            string genMale = chkMale.Text;
+            string genFemale=chkFemale.Text;
+            string phone = txtPhone.Text;
+            string address=txtAddress.Text;
+        }
     }
 }
