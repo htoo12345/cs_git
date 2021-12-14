@@ -19,7 +19,7 @@ namespace Assignment5
 
         private void txtNameInfo_TextChanged(object sender, EventArgs e)
         {
-            Form1 form1 = new Form1();
+            txtNameInfo.Text=na
 
         }
     }

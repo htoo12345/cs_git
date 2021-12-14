@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace Assignment5
 {
-    public partial class Form1 : Form
+    public partial class Form1 : Form                                                                               
     {
         public Form1()
         {
@@ -29,6 +29,9 @@ namespace Assignment5
             string genFemale=chkFemale.Text;
             string phone = txtPhone.Text;
             string address=txtAddress.Text;
+
+            InformationOfUserGUI userGUI= new InformationOfUserGUI();
+            userGUI.Show();
         }
     }
 }
