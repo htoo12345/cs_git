@@ -107,10 +107,10 @@
             // 
             this.txtOutputDisplay.Location = new System.Drawing.Point(105, 198);
             this.txtOutputDisplay.Name = "txtOutputDisplay";
+            this.txtOutputDisplay.ReadOnly = true;
             this.txtOutputDisplay.Size = new System.Drawing.Size(80, 20);
             this.txtOutputDisplay.TabIndex = 6;
             this.txtOutputDisplay.Text = "      Answer";
-           // this.txtOutputDisplay.TextChanged += new System.EventHandler(this.txtOutputDisplay_TextChanged);
             // 
             // Form1
             // 
