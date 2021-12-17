@@ -10,13 +10,16 @@ namespace Sololearn
     {
         static void Main()
         {
-            int res = Area(w: 5, h: 3);
-            Console.Write(res);
+            //  int res = Area(w: 5, h: 3);
+            //  Console.Write(res);
+           
         }
 
         static int Area(int h,int w)
         {
             return h*w;
         }
+
+        
     }
 }

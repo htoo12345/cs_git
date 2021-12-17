@@ -43,9 +43,9 @@
             this.txtPhone = new System.Windows.Forms.TextBox();
             this.btnCancel = new System.Windows.Forms.Button();
             this.btnRegister = new System.Windows.Forms.Button();
-            this.chkMale = new System.Windows.Forms.CheckBox();
-            this.chkFemale = new System.Windows.Forms.CheckBox();
             this.txtAddress = new System.Windows.Forms.TextBox();
+            this.radioButton1 = new System.Windows.Forms.RadioButton();
+            this.radioButton2 = new System.Windows.Forms.RadioButton();
             this.SuspendLayout();
             // 
             // label1
@@ -177,27 +177,6 @@
             this.btnRegister.UseVisualStyleBackColor = true;
             this.btnRegister.Click += new System.EventHandler(this.btnRegister_Click);
             // 
-            // chkMale
-            // 
-            this.chkMale.AutoSize = true;
-            this.chkMale.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.chkMale.Location = new System.Drawing.Point(159, 194);
-            this.chkMale.Name = "chkMale";
-            this.chkMale.Size = new System.Drawing.Size(49, 17);
-            this.chkMale.TabIndex = 15;
-            this.chkMale.Text = "Male";
-            this.chkMale.UseVisualStyleBackColor = true;
-            // 
-            // chkFemale
-            // 
-            this.chkFemale.AutoSize = true;
-            this.chkFemale.Location = new System.Drawing.Point(229, 194);
-            this.chkFemale.Name = "chkFemale";
-            this.chkFemale.Size = new System.Drawing.Size(60, 17);
-            this.chkFemale.TabIndex = 16;
-            this.chkFemale.Text = "Female";
-            this.chkFemale.UseVisualStyleBackColor = true;
-            // 
             // txtAddress
             // 
             this.txtAddress.Location = new System.Drawing.Point(159, 285);
@@ -205,13 +184,36 @@
             this.txtAddress.Size = new System.Drawing.Size(145, 20);
             this.txtAddress.TabIndex = 12;
             // 
+            // radioButton1
+            // 
+            this.radioButton1.AutoSize = true;
+            this.radioButton1.Location = new System.Drawing.Point(159, 192);
+            this.radioButton1.Name = "radioButton1";
+            this.radioButton1.Size = new System.Drawing.Size(48, 17);
+            this.radioButton1.TabIndex = 17;
+            this.radioButton1.TabStop = true;
+            this.radioButton1.Text = "Male";
+            this.radioButton1.UseVisualStyleBackColor = true;
+            
+            // 
+            // radioButton2
+            // 
+            this.radioButton2.AutoSize = true;
+            this.radioButton2.Location = new System.Drawing.Point(229, 192);
+            this.radioButton2.Name = "radioButton2";
+            this.radioButton2.Size = new System.Drawing.Size(59, 17);
+            this.radioButton2.TabIndex = 18;
+            this.radioButton2.TabStop = true;
+            this.radioButton2.Text = "Female";
+            this.radioButton2.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(319, 402);
-            this.Controls.Add(this.chkFemale);
-            this.Controls.Add(this.chkMale);
+            this.Controls.Add(this.radioButton2);
+            this.Controls.Add(this.radioButton1);
             this.Controls.Add(this.btnRegister);
             this.Controls.Add(this.btnCancel);
             this.Controls.Add(this.txtAddress);
@@ -251,9 +253,9 @@
         private System.Windows.Forms.TextBox txtPhone;
         private System.Windows.Forms.Button btnCancel;
         private System.Windows.Forms.Button btnRegister;
-        private System.Windows.Forms.CheckBox chkMale;
-        private System.Windows.Forms.CheckBox chkFemale;
         private System.Windows.Forms.TextBox txtAddress;
+        private System.Windows.Forms.RadioButton radioButton1;
+        private System.Windows.Forms.RadioButton radioButton2;
     }
 }
 
