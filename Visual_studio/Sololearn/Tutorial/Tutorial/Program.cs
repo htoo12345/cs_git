@@ -10,6 +10,7 @@ namespace Tutorial
     {
         static void Main(string[] args)
         {
+            
         }
-    }
-}
+    } // end of Program class
+} // end of tutorial

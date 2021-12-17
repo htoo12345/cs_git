@@ -43,8 +43,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AboutString.cs" />
+    <Compile Include="ArrayEX.cs" />
+    <Compile Include="ExplicitCasting.cs" />
+    <Compile Include="Loop.cs" />
+    <Compile Include="Mathematic.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScienticNumber.cs" />
+    <Compile Include="TernaryOperator.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
