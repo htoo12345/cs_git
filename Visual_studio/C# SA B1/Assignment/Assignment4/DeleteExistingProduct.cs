@@ -5,7 +5,7 @@ namespace Assignment4
 {
     public class DeleteExistingProduct
     {
-        public void DeleteProduct(ColumnsName columns)
+        public void DeleteProduct(Product product)
         {
             try
             {
@@ -16,7 +16,7 @@ namespace Assignment4
 
                 if (sqlConnection != null)
                 {
-                    string query = $"delete from Product where Id={columns.Id}";
+                    string query = $"delete from Product where Id={product.Id}";
 
                     SqlCommand sqlCommand = new SqlCommand(query, sqlConnection);
                     int result = sqlCommand.ExecuteNonQuery();

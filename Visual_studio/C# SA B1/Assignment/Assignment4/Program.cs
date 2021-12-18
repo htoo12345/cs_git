@@ -25,7 +25,7 @@ namespace Assignment4
                     ShowProductList show = new ShowProductList();
                     UpdateExistingProduct update = new UpdateExistingProduct();
                     DeleteExistingProduct delete = new DeleteExistingProduct();
-                    ColumnsName name = new ColumnsName();
+                    Product name = new Product();
 
                     Console.Write("Select the Operation(1,2,3,4,5) : ");
                     operation = Convert.ToInt32(Console.ReadLine());

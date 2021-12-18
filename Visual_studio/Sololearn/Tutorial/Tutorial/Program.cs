@@ -1,8 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿//using System;
+//using System.Collections.Generic;
+//using System.Linq;
+//using System.Text;
+//using System.Threading.Tasks;
 
 namespace Tutorial
 {
@@ -10,7 +10,7 @@ namespace Tutorial
     {
         static void Main(string[] args)
         {
-            
+            ParameterAndArgument.Call();
         }
     } // end of Program class
 } // end of tutorial

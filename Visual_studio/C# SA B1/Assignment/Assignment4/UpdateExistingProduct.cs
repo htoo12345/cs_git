@@ -5,7 +5,7 @@ namespace Assignment4
 {
     public class UpdateExistingProduct
     {
-        public void UpdateProduct(ColumnsName columns)
+        public void UpdateProduct(Product product)
         {
             try
             {
@@ -16,7 +16,7 @@ namespace Assignment4
 
                 if (sqlConnection != null)
                 {
-                    string query = $"update Product set Name = '{columns.Name}', Price = '{columns.Price}' , Category = '{columns.Category}' where Id = {columns.Id} ";
+                    string query = $"update Product set Name = '{product.Name}', Price = '{product.Price}' , Category = '{product.Category}' where Id = {product.Id} ";
 
                     SqlCommand sqlCommand = new SqlCommand(query, sqlConnection);
                     int result = sqlCommand.ExecuteNonQuery();

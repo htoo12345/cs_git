@@ -83,6 +83,7 @@
             this.txtSecondNumber.Name = "txtSecondNumber";
             this.txtSecondNumber.Size = new System.Drawing.Size(100, 20);
             this.txtSecondNumber.TabIndex = 2;
+            this.txtSecondNumber.TextChanged += new System.EventHandler(this.txtSecondNumber_TextChanged);
             // 
             // txtResult
             // 
@@ -108,8 +109,9 @@
             this.txtSub.Name = "txtSub";
             this.txtSub.Size = new System.Drawing.Size(75, 23);
             this.txtSub.TabIndex = 5;
-            this.txtSub.Text = "Sub";
+            this.txtSub.Text = "Substraction";
             this.txtSub.UseVisualStyleBackColor = true;
+            this.txtSub.Click += new System.EventHandler(this.txtSub_Click);
             // 
             // txtMultiplication
             // 
@@ -119,6 +121,7 @@
             this.txtMultiplication.TabIndex = 6;
             this.txtMultiplication.Text = "Multiplication";
             this.txtMultiplication.UseVisualStyleBackColor = true;
+            this.txtMultiplication.Click += new System.EventHandler(this.txtMultiplication_Click);
             // 
             // txtDivision
             // 
@@ -128,6 +131,7 @@
             this.txtDivision.TabIndex = 7;
             this.txtDivision.Text = "Division";
             this.txtDivision.UseVisualStyleBackColor = true;
+            this.txtDivision.Click += new System.EventHandler(this.txtDivision_Click);
             // 
             // txtRemainder
             // 
@@ -137,6 +141,7 @@
             this.txtRemainder.TabIndex = 8;
             this.txtRemainder.Text = "Remainder";
             this.txtRemainder.UseVisualStyleBackColor = true;
+            this.txtRemainder.Click += new System.EventHandler(this.txtRemainder_Click);
             // 
             // label4
             // 

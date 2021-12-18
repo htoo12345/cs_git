@@ -5,7 +5,7 @@ namespace Assignment4
 {
     public class AddNewProduct
     { 
-        public void AddProduct(ColumnsName columns)
+        public void AddProduct(Product product)
         {
             try
             {
@@ -16,7 +16,7 @@ namespace Assignment4
 
                 if (sqlConnection != null)
                 {
-                    string query = $"insert into Product values ({columns.Id},'{columns.Name}','{columns.Price}','{columns.Category}')";
+                    string query = $"insert into Product values ({product.Id},'{product.Name}','{product.Price}','{product.Category}')";
 
                     SqlCommand sqlCommand = new SqlCommand(query, sqlConnection);
                     int result = sqlCommand.ExecuteNonQuery();
