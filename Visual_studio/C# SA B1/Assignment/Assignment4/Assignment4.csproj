@@ -44,7 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="AddNewProduct.cs" />
-    <Compile Include="ColumnsName.cs" />
+    <Compile Include="Product.cs" />
     <Compile Include="DatabaseConnection.cs" />
     <Compile Include="DeleteExistingProduct.cs" />
     <Compile Include="Program.cs" />
